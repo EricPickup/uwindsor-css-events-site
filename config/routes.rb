@@ -20,8 +20,10 @@ Rails.application.routes.draw do
   namespace :contest do
     resources :kool_kats
     post '/vote', to: 'kool_kats#update_votes'
-  end 
-    
+  end
+   
+
+  resources :feedback, only: [:index, :create]
 
   get '/discord', to: 'markdown_pages#discord', as: 'discord_path'
   get '/guide', to: 'markdown_pages#guide', as: 'guide'

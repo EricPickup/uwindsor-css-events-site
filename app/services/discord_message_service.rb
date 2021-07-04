@@ -1,6 +1,7 @@
 class DiscordMessageService 
   DISCORD_API_ENDPOINT = "https://discordapp.com/api"
   DISCORD_ANNOUNCEMENT_CHANNEL_ID = ENV['DISCORD_ANNOUNCEMENT_CHANNEL_ID']
+  DISCORD_MOD_CHANNEL_ID = ENV['DISCORD_MOD_CHANNEL_ID']
   SIDE_COLOR = "005696"
 
   def self.send_message!(channel_id, options)

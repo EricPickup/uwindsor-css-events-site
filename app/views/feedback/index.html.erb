@@ -1,0 +1,13 @@
+<h1> Feedback Form </h1>
+<hr/>
+<h5> Have an issue? Write it anonymously here. </h5>
+<%= form_with url: feedback_index_path, method: :post do |form| =%>
+	<%= form.label :feedback =%>
+	<%= form.text_area :feedback, size: "10x6", :class => "form-control", required: true =%>
+	<%= form.submit "Submit", class: "btn btn-primary feedback_submit_button" =%>
+<% end %>
+
+<br/>
+<h4>How it works</h4>
+
+When you have an issue or a suggestion, fillout this form and it will send an email to every important Computer Science Society person.

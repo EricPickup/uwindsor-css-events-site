@@ -85,6 +85,7 @@ Each of these variables serves its own purpose (some described above in other se
 | DISCORD_CLIENT_SECRET     | Discord application's client secret                                              |
 | DISCORD_SERVER_ID          | Guild (server) ID for the Discord server that the application is adding users to |
 | DISCORD_ANNOUNCEMENT_CHANNEL_ID | Channel ID for the channel that the bot will send event announcements to         |
+| DISCORD_MOD_CHANNEL_ID | Channel ID for the channel that the bot will send messages for moderators|
 | HOST                      | Website URL (https://localhost:3000 for local instances)                         |
 | GMAIL_USERNAME            | Email address that the website sends emails from                                 |
 | GMAIL_PASSWORD            | Password to the email address                                                    |
